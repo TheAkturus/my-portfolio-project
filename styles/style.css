@@ -56,6 +56,10 @@ p {
   padding: 15px 30px;
 }
 
+.row {
+  padding: 20px;
+}
+
 .btn-branding {
   font-size: 18px;
   font-weight: normal;
@@ -67,4 +71,31 @@ p {
 }
 
 .project-description {
+  padding: 120 60px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 38px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    text-align: center;
+  }
 }
