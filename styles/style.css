@@ -140,9 +140,10 @@ p {
 }
 
 .about-section-content {
-  margin: 30px;
+  margin: 0 30px;
 }
 
 .portrait {
   border-radius: 5px;
+  max-width: 500px;
 }
