@@ -147,3 +147,16 @@ p {
   border-radius: 5px;
   max-width: 500px;
 }
+
+.work-image-text {
+  line-height: 1.5;
+}
+
+.work-image-text h3 {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+}
+
+.work-image-text p {
+  font-size: 14px;
+}
